@@ -35,7 +35,7 @@ html, body {
 .firstImage {
     background-image: url(images/pizza.webp);
     background-position: center;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,4 +162,11 @@ cardapio {
     font-size: 3.0rem;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    text-align: center;
+    background-color: #000000;
+    padding: 10px 10px 10px 10px;
+    color: #f9f9f9;
 }
