@@ -16,6 +16,10 @@ header {
     margin: 0 15px;
 }
 
+.nav-item :hover{
+    text-decoration: underline;
+}
+
 .nav-link {
     color: orangered;
     text-decoration: none;
@@ -76,18 +80,15 @@ html, body {
 }
 
 .cardapio {
-    text-align: center;
-}
-
-cardapio {
     padding: 50px 20px;
     text-align: center;
 }
 
+
 .cardapio .itens-cardapios {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
-    gap: 30px; /* Espaço entre os itens */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0;
