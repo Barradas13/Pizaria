@@ -165,6 +165,33 @@ html, body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.sugestao {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.sugestao label{
+    font-size: large;
+}
+
+.sugestao button{
+    border-radius: 10px;
+    background-color: rgb(4, 35, 92);
+    color: bisque;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sugestao h1{
+    font-size: 3.0rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sugestao{
+    background-color: #f8fad6;
+}
+
 footer{
     text-align: center;
     background-color: #000000;
