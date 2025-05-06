@@ -156,7 +156,17 @@ html, body {
 }
 
 .contato {
-    text-align: center;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: auto;
+}
+
+.informacoes {
+    justify-content: space-between;
+    display: flex;
 }
 
 .contato .titulo-contato{
@@ -165,13 +175,11 @@ html, body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.sugestao {
-    padding: 10px 20px;
-    text-align: center;
-}
-
 .sugestao label{
-    font-size: large;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .sugestao button{
@@ -180,16 +188,45 @@ html, body {
     color: bisque;
     padding: 10px;
     margin: 5px;
+    width: 100%;
+    border: none;
 }
 
 .sugestao h1{
     font-size: 3.0rem;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .sugestao{
-    background-color: #f8fad6;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 300px;
+    margin: auto;
+}
+
+.sugestao #descricao-input, select, #valor {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.lista-igredientes li{
+    list-style-type: none;
+}
+
+button:active {
+    transform: scale(0.96);
 }
 
 footer{

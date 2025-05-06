@@ -65,7 +65,7 @@
         <h1 class="titleSecond">Sobre Nós</h1>
         <p class="subtitleSecond">Mais que uma pizzaria, uma experiência: massa perfeita, ingredientes selecionados e o sabor que conquista gerações!</p>
     </section>
-
+    <div class = "informacoes">
     <section class="contato" id="contato">
         <h1 class="titulo-contato">Fale Conosco</h1>
         <div class="info">
@@ -94,24 +94,26 @@
                 <select id="escolha" name="escolha">
                     <option value="opcao1">Doce</option>
                     <option value="opcao2">Salgada</option>
-                </select> <br>
+                </select>
                 <label for="descricao">Descrição da pizza:</label>
-                <input id="descricao-input"> <br>
-                <label for="descricao">Ingredientes:</label><br>
-                    <input type="checkbox" name="ingredientes" value="mussarela"> Mussarela<br>
-                    <input type="checkbox" name="ingredientes" value="calabresa"> Calabresa<br>
-                    <input type="checkbox" name="ingredientes" value="presunto"> Presunto<br>
-                    <input type="checkbox" name="ingredientes" value="azeitona"> Azeitona<br>
-                    <input type="checkbox" name="ingredientes" value="cebola"> Cebola<br>
-                    <input type="checkbox" name="ingredientes" value="pimentao"> Pimentão<br>
-                    <input type="checkbox" name="ingredientes" value="tomate"> Tomate<br>
+                <input id="descricao-input">
+                <label for="descricao">Ingredientes:</label>
+                <ul class = "lista-igredientes">
+                    <li><input type="checkbox" name="ingredientes" value="mussarela"> Mussarela</li>
+                    <li><input type="checkbox" name="ingredientes" value="calabresa"> Calabresa</li>
+                    <li><input type="checkbox" name="ingredientes" value="presunto"> Presunto</li>
+                    <li><input type="checkbox" name="ingredientes" value="azeitona"> Azeitona</li>
+                    <li><input type="checkbox" name="ingredientes" value="cebola"> Cebola</li>
+                    <li><input type="checkbox" name="ingredientes" value="pimentao"> Pimentão</li>
+                    <li><input type="checkbox" name="ingredientes" value="tomate"> Tomate</li>
+                </ul>
                 <label>Valor sugerido:</label>
-                    <input type="number" id="valor" min="0"><br>  
+                    <input type="number" id="valor" min="0">  
                 <button id="enviar">Enviar</button>  
             </form>  
         </div>
     </section>
-
+    </div>
     <footer>
         <p>&copy; 2025 Alessios</p>
         <p><i data-feather="instagram"></i> Alessios'insta</p>
